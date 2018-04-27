@@ -7,7 +7,8 @@ export ZSH=/Users/richardnelson/.oh-my-zsh
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="muse"
+# ZSH_THEME="muse"
+ZSH_THEME="agnoster"
 
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
@@ -96,9 +97,11 @@ source $ZSH/oh-my-zsh.sh
 alias zshconfig="vi ~/.zshrc"
 alias weather="curl http://wttr.in/new-york"
 alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
+alias ohmyzsh="subl ~/.oh-my-zsh"
 alias s=subl
-
+alias gc="git checkout"
+alias gcb="git checkout -b" 
+alias gb="git branch"
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
